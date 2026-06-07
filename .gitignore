@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Local env / secrets
+.env
+.envrc
+
+# OS
+.DS_Store
+
+# Runtime artifacts (the pipeline can generate these locally)
+*.log
+logs/
+data/logs/
+runtime_log.jsonl
+*.jsonl
+last_frame.png
+last_frame_rid_*.png
+
+# Per-sample raw evaluation evidence must never be committed: a screenshot or a
+# logger record can contain real on-screen content (code / paths / private text).
+# Only the aggregate summary + figures are part of this public repo.
+tests/manual/sample_*/screenshot.png
+tests/manual/sample_*/score.md
+tests/manual/sample_*/notes.txt
+tests/manual/sample_*/logger_record.json
+tests/manual/sample_*/overlay.txt

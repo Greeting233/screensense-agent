@@ -1,0 +1,20 @@
+[project]
+name = "screensense-agent"
+version = "0.1.0"
+description = "ScreenSense-Agent v0 — through Step 5: capture, OCR, task context, suggestion, and overlay."
+requires-python = ">=3.10"
+dependencies = [
+    "mss>=9.0.0",
+    "openai>=2.0.0",
+    "Pillow>=10.0.0",
+    "pytesseract>=0.3.10",
+    "pyobjc-framework-Cocoa>=12.1",
+    "pynput>=1.7.7",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src", "platforms", "platforms.macos"]

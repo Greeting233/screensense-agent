@@ -1,0 +1,11 @@
+sample,staging,structure_class,task,context_chars,prompt_tokens,relevance,actionability,accepted,t_capture,t_ocr,t_llm,t_total,status,overlay_shown
+01,Python ImportError,structured,code_error,1842,753,1.0,0.5,True,142,1997,3726,7899,success,True
+02,shell command-not-found,non,unknown,39,74,0.0,0.0,False,116,1048,3145,6298,success,True
+03,Python ModuleNotFound (numpyy),structured,code_error,1842,722,1.0,1.0,True,169,791,3507,213947,success,True
+04,Python ImportError (os submodule),structured,code_error,1687,696,1.0,0.5,True,120,608,3875,7249,success,True
+05,git non-repo,non,unknown,39,74,0.0,0.0,False,139,510,3175,5484,success,True
+06,LaTeX compile (l.4 locator),structured,code_error,1842,682,1.0,0.5,True,134,955,3473,38127044,success,True
+07,LaTeX file-not-found,non,unknown,39,74,0.0,0.0,False,291,530,3004,181261,success,True
+08,C/C++ clang undeclared-id,structured,code_error,1146,409,1.0,1.0,True,269,2204,3393,234642,success,True
+09,cat/ls file-not-found,non,unknown,39,74,0.0,0.0,False,109,235,3008,499263,success,True
+10,JSON parse err (json.tool line/col),semi,unknown,39,74,0.0,0.0,False,146,333,2664,2580285,success,True
