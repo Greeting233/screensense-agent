@@ -4,7 +4,7 @@
 
 ScreenSense-Agent (SSA) studies a desktop pipeline that starts from a single screen frame, performs task discrimination, constructs a **minimum effective context**, and generates one short, task-relevant suggestion under explicit latency constraints. It treats context construction as a measurable system variable.
 
-It is **suggestion-first**: it only **observes → parses → suggests → waits**. The user keeps full control at all times. SSA is **not** an autonomous desktop agent, **not** a computer controller, and **not** a productivity overlay. The overlay is only a read-only output surface for showing a suggestion; it is not a productivity-overlay product or a desktop control layer.
+It is **suggestion-first**: it only **observes → parses → suggests → waits**, and the user keeps full control at all times. The overlay is a read-only surface for displaying that suggestion — not an autonomous desktop agent, a computer controller, or a productivity-overlay product. The full boundary is listed below.
 
 ## Boundary (out of scope by design)
 
